@@ -18,7 +18,9 @@
     "check": "gulp check",
     "test": "ava --tap | tap-nyan",
     "lint": "./node_modules/.bin/eslint src/**/*.js",
-    "server": "webpack-dev-server --content-base ./public --inline --hot"
+    "server": "webpack-dev-server --content-base ./public --inline --hot",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "license": "MIT",
   "dependencies": {
@@ -33,11 +35,11 @@
     "event-stream": "^3.3.4",
     "form-data": "^2.2.0",
     "fs": "0.0.1-security",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-babel": "^7.0.0",
     "gulp-bubble": "^1.0.3",
     "gulp-concat": "^2.6.1",
-    "gulp-copy": "^1.0.1",
+    "gulp-copy": "^4.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-minify-css": "^1.2.4",
     "gulp-rename": "^1.2.2",
@@ -80,7 +82,8 @@
     "underscore": "^1.8.3",
     "url": "^0.11.0",
     "vinyl-named": "^1.1.0",
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "snyk": "^1.104.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
@@ -144,5 +147,6 @@
     "watchify": "^3.7.0",
     "webpack": "^2.1.0-beta.21",
     "webpack-dev-server": "^2.5.1"
-  }
+  },
+  "snyk": true
 }
