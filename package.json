@@ -47,7 +47,7 @@
     "history": "^4.6.3",
     "jquery": "^3.2.1",
     "moment": "^2.18.1",
-    "node-notifier": "^5.1.2",
+    "node-notifier": "^9.0.0",
     "react": "^15.6.2",
     "react-addons-css-transition-group": "^15.6.2",
     "react-classnames": "^0.1.2",
