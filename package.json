@@ -33,11 +33,11 @@
     "event-stream": "^3.3.4",
     "form-data": "^2.2.0",
     "fs": "0.0.1-security",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-babel": "^7.0.0",
     "gulp-bubble": "^1.0.3",
     "gulp-concat": "^2.6.1",
-    "gulp-copy": "^1.0.1",
+    "gulp-copy": "^4.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-minify-css": "^1.2.4",
     "gulp-rename": "^1.2.2",
@@ -47,7 +47,7 @@
     "history": "^4.6.3",
     "jquery": "^3.2.1",
     "moment": "^2.18.1",
-    "node-notifier": "^5.1.2",
+    "node-notifier": "^7.0.0",
     "react": "^15.6.2",
     "react-addons-css-transition-group": "^15.6.2",
     "react-classnames": "^0.1.2",
@@ -80,7 +80,7 @@
     "underscore": "^1.8.3",
     "url": "^0.11.0",
     "vinyl-named": "^1.1.0",
-    "webpack": "^3.8.1"
+    "webpack": "^4.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
@@ -142,7 +142,7 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0",
-    "webpack": "^2.1.0-beta.21",
+    "webpack": "^4.0.0",
     "webpack-dev-server": "^2.5.1"
   }
 }
