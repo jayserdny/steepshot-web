@@ -33,7 +33,7 @@
     "event-stream": "^3.3.4",
     "form-data": "^2.2.0",
     "fs": "0.0.1-security",
-    "gulp": "^3.9.1",
+    "gulp": "^5.0.0",
     "gulp-babel": "^7.0.0",
     "gulp-bubble": "^1.0.3",
     "gulp-concat": "^2.6.1",
